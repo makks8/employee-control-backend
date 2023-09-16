@@ -1,0 +1,15 @@
+/.idea
+/builds
+/vendor
+/.env
+.vscode/
+
+# K8S
+/k8s
+!/k8s/*.example.yml
+
+# atlas migrate
+/schema/.atlas
+
+# macos file system
+.DS_Store
